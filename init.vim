@@ -3,7 +3,6 @@ call plug#begin('~/.config/nvim/plugged')
     " Beautification
         " Colorschemes
         Plug 'rakr/vim-one'
-        Plug 'tomasr/molokai'
         Plug 'chriskempson/base16-vim'
         Plug 'dracula/vim'
         Plug 'NLKNguyen/papercolor-theme'
@@ -65,7 +64,6 @@ let mapleader = ","
 " Colorscheme stuff
 set termguicolors
 set background=dark
-colorscheme molokai
 " Airline stuff
 let g:airline_theme = 'deus'
 let g:airline_powerline_fonts = 1
