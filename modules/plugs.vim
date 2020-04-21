@@ -8,6 +8,7 @@ call plug#begin('~/.config/nvim/plugged')
 
     Plug 'fneu/breezy'
     Plug 'rakr/vim-one'
+    Plug 'tomasr/molokai'
     " Plug 'chriskempson/base16-vim'
     " Plug 'dracula/vim'
     " Plug 'NLKNguyen/papercolor-theme'
