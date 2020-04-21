@@ -21,3 +21,5 @@ nmap <Leader>wf :write<CR>
 
 nmap <Leader>ce :edit ~/.config/nvim/init.vim<CR>
 nmap <Leader>cr :source ~/.config/nvim/init.vim<CR>
+
+tnoremap <Esc> <C-\><C-n>
