@@ -1,12 +1,7 @@
 runtime ./modules/plugs.vim
-runtime ./modules/editing.vim
-runtime ./modules/appearance.vim
-runtime ./modules/ide.vim
-runtime ./modules/keymaps.vim
+
+set completeopt=menuone,noinsert,noselect
+lua require'lspconfig'.pyright.setup{on_attach=require'completion'.on_attach}
 
 " Tags
 set autochdir
-set tags=tags;
-nmap <C-t> :TagbarToggle<CR>
-
-
