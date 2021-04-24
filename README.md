@@ -1,10 +1,13 @@
 # Varun's Neovim Configuration
 
-## Installation
-Clone into $HOME/.config/nvim/
+## Dependencies
+### Required Dependencies
+- Ripgrep (`rg`)
+- Git
+- Neovim 5.0 Nightly
+### Optional Dependencies
+- For C/C++ support: [clangd](https://clangd.llvm.org/installation.html)
+- For Python support: [Pyright](https://github.com/microsoft/pyright)
 
-## Base Setup
-Install the `neovim` package with pip
-Start neovim and run `:PlugUpdate`, which will download and install my plugins.
-Finally, set your terminal font to a font that supports powerline - any of the Nerd Fonts should do.
-Remember to set up YCM by following the YouCompleteMe docs.
+## Installation
+Execute `curl https://raw.githubusercontent.com/varun-ramani/config_neovim_lsp/master/install.sh | bash`
