@@ -2,7 +2,6 @@
 nmap <C-p> :FZF<CR>
 nmap <C-n> :NERDTreeToggle<CR>
 
-
 " Some keymaps for navigating the editor
 nmap <Space> <Leader>
 
