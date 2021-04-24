@@ -2,5 +2,5 @@
 " Basic Color Stuff
 " Colorscheme stuff
 set termguicolors
-colorscheme molokai
+colorscheme tokyonight
 set background=dark
